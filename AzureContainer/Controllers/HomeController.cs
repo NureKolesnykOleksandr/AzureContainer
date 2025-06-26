@@ -11,5 +11,11 @@ namespace AzureContainer.Controllers
         {
             return "Hello cloud world!";
         }
+
+        [HttpGet("Love")]
+        public string GetLove()
+        {
+            return "Hello my Nastya!)";
+        }
     }
 }
