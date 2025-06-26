@@ -9,7 +9,7 @@ namespace AzureContainer.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Hello updated brand new cloud world!";
+            return "Hello updated brand new cloud world BOOOOO!";
         }
 
         [HttpGet("Love")]
