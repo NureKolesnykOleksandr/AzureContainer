@@ -9,13 +9,13 @@ namespace AzureContainer.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Hello updated brand new cloud world BOOOOO!";
+            return "Hello updated brand new cloud world!";
         }
 
         [HttpGet("Love")]
         public string GetLove()
         {
-            return "Hello my Nastona!)";
+            return "Hello my Nastona!) I love u so much. я всегда буду на твоей стороне мо€ Ќаст€";
         }
     }
 }
